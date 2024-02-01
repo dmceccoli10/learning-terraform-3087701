@@ -28,7 +28,6 @@ resource "aws_instance" "blog" {
     Name = "HelloWorld"
   }
 }
-<<<<<<< HEAD
 
 resource "aws_security_group" "blog" {
   name        = "blog"
@@ -67,5 +66,3 @@ resource "aws_security_group_rule" "blog_everything_out" {
   security_group_id = aws_security_group.blog.id
 }
 
-=======
->>>>>>> 384cec0b380846f1bc6752a503c35ed098638437
